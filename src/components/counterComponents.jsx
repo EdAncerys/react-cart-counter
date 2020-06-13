@@ -13,7 +13,7 @@ class Counter extends Component {
 
   render() {
     return (
-      <div className="m-5">
+      <div className="m-3">
         <div>
           <span style={this.styles} className={this.getBadgeClasses()}>
             {this.formatCount()}
