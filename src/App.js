@@ -40,7 +40,7 @@ class App extends Component {
           totalCounters={this.state.counters.filter((c) => c.value > 0).length}
           totalItems={this.state.counters.map((c) => c.value)}
         />
-        <main className="container">
+        <main className="m-5">
           <Counters
             counters={this.state.counters}
             onReset={this.handleReeset}
