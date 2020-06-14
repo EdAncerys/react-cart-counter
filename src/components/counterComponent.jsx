@@ -7,6 +7,7 @@ class Counter extends Component {
   };
 
   render() {
+    const { onIncrement, onDelete, counter } = this.props;
     return (
       <div className="m-3">
         <div>
@@ -14,13 +15,13 @@ class Counter extends Component {
             {this.formatCount()}
           </span>
           <button
-            onClick={() => this.props.onIncrement(this.props.counter)}
+            onClick={() => onIncrement(counter)}
             className="btn btn-sm btn-primary m-2"
           >
             Increment
           </button>
           <button
-            onClick={() => this.props.onDelete(this.props.counter.id)}
+            onClick={() => onDelete(counter.id)}
             className="btn btn-sm btn-danger"
           >
             Delete
