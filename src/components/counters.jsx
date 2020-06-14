@@ -17,8 +17,15 @@ class Counters extends Component {
     counters[index] = { ...counter };
     counters[index].value++;
     this.setState({ counters });
-    console.log("id:", counters[index].id, index);
   };
+
+  handleReeset() {
+    const counters = this.state.counters.map((c) => {
+      c.value = 0;
+      return c;
+    });
+    this.setState({ counters });
+  }
 
   handleDelete = (counterId) => {
     const counters = this.state.counters.filter((c) => c.id !== counterId);
