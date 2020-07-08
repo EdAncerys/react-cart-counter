@@ -1,3 +1,47 @@
+# React Cart Counter
+
+[Project Description](#project-description) | [Tech Stack](#tech-stack) | [Installation](#installation) | [Development Process](#development-process) | [Further development](#further-development)
+
+## Project Description
+
+Created simple shopping basket cart counter component that mimics typical shopping cart in web page.
+
+## Tech Stack:
+
+- [React](https://create-react-app.dev/docs/getting-started/) Create React App is an officially supported way to create single-page React applications. It offers a modern build setup with no configuration.
+
+## Installation
+
+- Clone this repository
+  `$ git clone https://github.com/EdAncerys/react-cart-counter`
+- Navigate to local repository
+  `$ cd react-cart-counter`
+- Install npm if you don't already have it
+  `https://www.npmjs.com/get-npm`
+- Install all dependencies
+  `$ npm install`
+- Start the server
+  `$ npm start`
+- Navigate to [http://localhost:3000](http://localhost:3000) in your browser
+
+## Development Process
+
+During development process I used an agile development methodologies of using git, commit messages, git branches, merges and regular code refactor.
+
+## User UI view
+
+<p align="center">
+    <img width="600" src="public/cart-item-01.png">
+</p>
+
+## Further Development
+
+Ideas to improve our application
+
+- Expand on functionality and add more ecommerce features that compliment above functionality.
+- Add shopping item list that user can interact in UI.
+- Add more components, like user cart view and shopping item preview to increase complexity.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
